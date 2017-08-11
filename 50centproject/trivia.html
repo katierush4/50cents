@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
+<!-- style-->
+
+<style>
+h9 {
+      position: absolute;
+      left: 300px;
+      top: 150px;
+  }
+</style>
+<header class="w3-display-container w3-content w3-wide" style="max-width:2600px;min-width:1500px" id="home">
+  <img class="w3-image" src="triviaheader.png" alt="AT&T Trivia" width="2500" height="200">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h9 class="w3-xxlarge"></h9>
+  </div>
+</header>
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Question 1</h1>
+      <p>What percent of Americasn participate at some level of charitable giving?</p>
+    </div>
+    <!--1st button -->
+          <body>
+
+            <button onclick="myFunction1()">95%</button>
+
+            <p id="95%"></p>
+            <script>
+            function myFunction1() {
+              document.getElementById("95%").innerHTML = "Correct! You got 1 cent!";
+            }
+            </script>
+
+          </body>
+    <!--2nd button -->
+          <body>
+
+            <button onclick="myFunction2()">48%</button>
+
+            <p id="48%"></p>
+            <script>
+            function myFunction2() {
+              document.getElementById("48%").innerHTML = "Incorrect, better luck next time.";
+            }
+            </script>
+
+          </body>
+    <!--3rd button -->
+          <body>
+
+            <button onclick="myFunction3()">64%</button>
+
+            <p id="64%"></p>
+            <script>
+            function myFunction3() {
+              document.getElementById("64%").innerHTML = "Incorrect, try better next time.";
+            }
+            </script>
+
+          </body>
+    <!--4st button -->
+          <body>
+
+            <button onclick="myFunction4()">82%</button>
+
+            <p id="82%"></p>
+            <script>
+            function myFunction4() {
+              document.getElementById("82%").innerHTML = "Incorrect, try better next time.";
+            }
+            </script>
+          </body>
+  </div>
+
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Question 2</h1>
+      <p>What is the average annual household charitable contribution?</p>
+      <br> </br>
+      <div class="w3-left-align w3-padding-large">
+        <body>
+          <button onclick="myFunction5()">$3,506</button>
+          <p id="$3,506"></p>
+          <script>
+          function myFunction5() {
+            document.getElementById("$3,506").innerHTML = "Incorrect, try better next time.";
+          }
+          </script>
+        </body>
+
+        <body>
+
+          <button onclick="myFunction6()">$2974</button>
+
+          <p id="$2974"></p>
+          <script>
+          function myFunction6() {
+            document.getElementById("$2974").innerHTML = "Correct! You owned one cent.";
+          }
+          </script>
+        </body>
+
+        <body>
+
+          <button onclick="myFunction7()">$1,289</button>
+
+          <p id="$1,289"></p>
+          <script>
+          function myFunction7() {
+            document.getElementById("$1,289").innerHTML = "Incorrect, better luck next time.";
+          }
+          </script>
+        </body>
+
+        <body>
+
+          <button onclick="myFunction8()">$3,993</button>
+
+          <p id="$3,993"></p>
+          <script>
+          function myFunction8() {
+            document.getElementById("$3,993").innerHTML = "Incorrect, better luck next time.";
+          }
+          </script>
+        </body>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>Question 3</h2>
+      <p>What percentage of the world's population is at risk for malaria?</p>
+      <body>
+
+        <button onclick="myFunction9()">42%</button>
+
+        <p id="42%"></p>
+        <script>
+        function myFunction9() {
+          document.getElementById("42%").innerHTML = "Incorrect, try better next time.";
+        }
+        </script>
+      </body>
+
+      <body>
+
+        <button onclick="myFunction10()">63%</button>
+
+        <p id="63%"></p>
+        <script>
+        function myFunction10() {
+          document.getElementById("63%").innerHTML = "Incorrect, try better next time.";
+        }
+        </script>
+      </body>
+
+      <body>
+
+        <button onclick="myFunction11()">73%</button>
+
+        <p id="73%"></p>
+        <script>
+        function myFunction11() {
+          document.getElementById("73%").innerHTML = "You got it dude :)";
+        }
+        </script>
+      </body>
+
+      <body>
+
+        <button onclick="myFunction12()">50%</button>
+
+        <p id="50%"></p>
+        <script>
+        function myFunction12() {
+          document.getElementById("50%").innerHTML = "Incorrect, try better next time.";
+        }
+        </script>
+      </body>
+    </div>
+  </div>
+
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Question 4</h2>
+      <p>Preventing malnutrition delivers $____ in returns on investment for every $1 spent?</p>
+      <div class="w3-container w3-responsive">
+        <body>
+
+          <button onclick="myFunction13()">8</button>
+
+          <p id="8"></p>
+          <script>
+          function myFunction13() {
+            document.getElementById("8").innerHTML = "Incorrect, try better next time.";
+          }
+          </script>
+        </body>
+        <body>
+
+          <button onclick="myFunction14()">3</button>
+
+          <p id="3"></p>
+          <script>
+          function myFunction14() {
+            document.getElementById("3").innerHTML = "Incorrect, try better next time.";
+          }
+          </script>
+        </body>
+        <body>
+
+          <button onclick="myFunction15()">10</button>
+
+          <p id="10"></p>
+          <script>
+          function myFunction15() {
+            document.getElementById("10").innerHTML = "Incorrect, try better next time.";
+          }
+          </script>
+        </body>
+        <body>
+
+          <button onclick="myFunction16()">16</button>
+
+          <p id="16"></p>
+          <script>
+          function myFunction16() {
+            document.getElementById("16").innerHTML = "Correct, you won one cent!";
+          }
+          </script>
+        </body>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Question 5</h1>
+      <p>The top 1 percent of the global wealth distribution holds ___ percent of the world's wealth?</p>
+      <body>
+
+        <button onclick="myFunction17()">35</button>
+
+        <p id="35"></p>
+        <script>
+        function myFunction17() {
+          document.getElementById("35").innerHTML = "Incorrect, try better next time.";
+        }
+        </script>
+      </body>
+      <body>
+
+        <button onclick="myFunction18()">23</button>
+
+        <p id="23"></p>
+        <script>
+        function myFunction18() {
+          document.getElementById("23").innerHTML = "Incorrect, try better next time.";
+        }
+        </script>
+      </body>
+      <body>
+
+        <button onclick="myFunction19()">57</button>
+
+        <p id="57"></p>
+        <script>
+        function myFunction19() {
+          document.getElementById("57").innerHTML = "Incorrect, try better next time.";
+        }
+        </script>
+      </body>
+      <body>
+
+        <button onclick="myFunction20()">46</button>
+
+        <p id="46"></p>
+        <script>
+        function myFunction20() {
+          document.getElementById("46").innerHTML = "correct.";
+        }
+        </script>
+      </body>
+    </div>
+  </div>
+
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Question 6</h1>
+      <p>About ___ million girls a year marry before age 18.</p>
+      <body>
+
+        <button onclick="myFunction21()">18</button>
+
+        <p id="18"></p>
+        <script>
+        function myFunction21() {
+          document.getElementById("18").innerHTML = "Incorrect.";
+        }
+        </script>
+      </body>
+      <body>
+
+        <button onclick="myFunction22()">35</button>
+
+        <p id="35"></p>
+        <script>
+        function myFunction22() {
+          document.getElementById("35").innerHTML = "incorrect.";
+        }
+        </script>
+      </body>
+      <body>
+
+        <button onclick="myFunction23()">15</button>
+
+        <p id="15"></p>
+        <script>
+        function myFunction23() {
+          document.getElementById("15").innerHTML = "correct.";
+        }
+        </script>
+      </body>
+      <body>
+
+        <button onclick="myFunction24()">9</button>
+
+        <p id="9"></p>
+        <script>
+        function myFunction24() {
+          document.getElementById("9").innerHTML = "incorrect.";
+        }
+        </script>
+      </body>
+
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<!-- bottom NAV BAR -->
+<a href="#" class="previous">&laquo; Previous</a>
+<a href="trivia2.html" class="next">Next &raquo;</a>
+<style>
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+</style>
